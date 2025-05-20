@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+header{
+  background-color:#fdf6e3;
+  
+}
+#heading{
+  display: flex;
+  
+  margin-right: 100px;
+}
+#photo{
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+h1{
+  text-align: left;
+  text-align: center;
+  margin-top: 40px;
+  text-decoration: underline;
+}
+
+h3{
+  margin-bottom: 20px;
+}
+#skills{
+  background-color: #e3f2fd;
+  list-style-type: disc;
+  height: 120px;
+  padding-top: 10px;
+  
+
+}
+ul{
+  margin-left: 20px;
+}
+#project{
+background-color: #fdf6e3;
+height: 120px;
+padding-top: 10px;
+}
+#social{
+  text-decoration: none;
+  background-color:  #e3f2fd;
+  display: flex;
+  
+}
+#links{
+  margin-left: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: larger;
+}
+footer{
+  background-color:#fdf6e3;
+  height: 50px;
+  padding-top: 20px;
+}
+a{
+  text-decoration: none;
+  color: darkslategrey;
+  transition: 0.3s;
+
+}
+a:hover{
+  color: rgb(249, 54, 93);
+  text-decoration: overline;
+
+}
+#photo {
+  transition: transform 0.3s ease;
+}
+
+#photo:hover {
+  transform: scale(1.1);
+}
+
+
